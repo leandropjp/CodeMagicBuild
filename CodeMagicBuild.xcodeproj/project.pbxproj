@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		741FBE8509A9255B0BC06EE1 /* Pods_CodeMagicBuildTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60D42BAF3D37597534EC8B92 /* Pods_CodeMagicBuildTests.framework */; };
+		7D7450F48346C7F8E206D6C1 /* Pods_CodeMagicBuild_copy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77DD12064B3CC30469A4602C /* Pods_CodeMagicBuild_copy.framework */; };
 		9C06068A26EA5A4B001DA124 /* CodeMagicBuildApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C06068926EA5A4B001DA124 /* CodeMagicBuildApp.swift */; };
 		9C06068C26EA5A4B001DA124 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C06068B26EA5A4B001DA124 /* ContentView.swift */; };
 		9C06068E26EA5A4E001DA124 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C06068D26EA5A4E001DA124 /* Assets.xcassets */; };
@@ -17,6 +19,8 @@
 		9C0606B726EA5A79001DA124 /* CodeMagicBuildApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C06068926EA5A4B001DA124 /* CodeMagicBuildApp.swift */; };
 		9C0606BA26EA5A79001DA124 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C06069026EA5A4E001DA124 /* Preview Assets.xcassets */; };
 		9C0606BB26EA5A79001DA124 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C06068D26EA5A4E001DA124 /* Assets.xcassets */; };
+		A3822035C5FA4498A60EDCDB /* Pods_CodeMagicBuild.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0287DFC62261AC4F6BA040FA /* Pods_CodeMagicBuild.framework */; };
+		F7647DEE146DB0C47B3745DB /* Pods_CodeMagicBuild_CodeMagicBuildUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67395BA17376EF423C5A2BD3 /* Pods_CodeMagicBuild_CodeMagicBuildUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0287DFC62261AC4F6BA040FA /* Pods_CodeMagicBuild.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodeMagicBuild.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15E4FFAF83CBE99C4A614DB8 /* Pods-CodeMagicBuild-CodeMagicBuildUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeMagicBuild-CodeMagicBuildUITests.release.xcconfig"; path = "Target Support Files/Pods-CodeMagicBuild-CodeMagicBuildUITests/Pods-CodeMagicBuild-CodeMagicBuildUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5EC0BB3C8F6D983B08F993AA /* Pods-CodeMagicBuild.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeMagicBuild.release.xcconfig"; path = "Target Support Files/Pods-CodeMagicBuild/Pods-CodeMagicBuild.release.xcconfig"; sourceTree = "<group>"; };
+		60D42BAF3D37597534EC8B92 /* Pods_CodeMagicBuildTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodeMagicBuildTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67395BA17376EF423C5A2BD3 /* Pods_CodeMagicBuild_CodeMagicBuildUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodeMagicBuild_CodeMagicBuildUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67C7B375CA8A52222C80D2C0 /* Pods-CodeMagicBuild copy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeMagicBuild copy.release.xcconfig"; path = "Target Support Files/Pods-CodeMagicBuild copy/Pods-CodeMagicBuild copy.release.xcconfig"; sourceTree = "<group>"; };
+		6C15D8259C1F361E5A9C10BA /* Pods-CodeMagicBuild-CodeMagicBuildUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeMagicBuild-CodeMagicBuildUITests.debug.xcconfig"; path = "Target Support Files/Pods-CodeMagicBuild-CodeMagicBuildUITests/Pods-CodeMagicBuild-CodeMagicBuildUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		77DD12064B3CC30469A4602C /* Pods_CodeMagicBuild_copy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodeMagicBuild_copy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		827CF72CAE78209943CA73CA /* Pods-CodeMagicBuildTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeMagicBuildTests.release.xcconfig"; path = "Target Support Files/Pods-CodeMagicBuildTests/Pods-CodeMagicBuildTests.release.xcconfig"; sourceTree = "<group>"; };
+		9248CB03F052395F970CE524 /* Pods-CodeMagicBuild.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeMagicBuild.debug.xcconfig"; path = "Target Support Files/Pods-CodeMagicBuild/Pods-CodeMagicBuild.debug.xcconfig"; sourceTree = "<group>"; };
 		9C06068626EA5A4B001DA124 /* CodeMagicBuild.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeMagicBuild.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C06068926EA5A4B001DA124 /* CodeMagicBuildApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeMagicBuildApp.swift; sourceTree = "<group>"; };
 		9C06068B26EA5A4B001DA124 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +65,8 @@
 		9C0606A826EA5A4F001DA124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C0606BF26EA5A79001DA124 /* CodeMagicBuild copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CodeMagicBuild copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C0606C026EA5A79001DA124 /* CodeMagicBuild copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "CodeMagicBuild copy-Info.plist"; path = "/Users/Leandro/Documents/jobs/Dyna/CodeMagicBuild/CodeMagicBuild copy-Info.plist"; sourceTree = "<absolute>"; };
+		9D05F877B5C1873916CCEBB1 /* Pods-CodeMagicBuildTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeMagicBuildTests.debug.xcconfig"; path = "Target Support Files/Pods-CodeMagicBuildTests/Pods-CodeMagicBuildTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A98284451A009319FCF2DCDB /* Pods-CodeMagicBuild copy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeMagicBuild copy.debug.xcconfig"; path = "Target Support Files/Pods-CodeMagicBuild copy/Pods-CodeMagicBuild copy.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3822035C5FA4498A60EDCDB /* Pods_CodeMagicBuild.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				741FBE8509A9255B0BC06EE1 /* Pods_CodeMagicBuildTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7647DEE146DB0C47B3745DB /* Pods_CodeMagicBuild_CodeMagicBuildUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D7450F48346C7F8E206D6C1 /* Pods_CodeMagicBuild_copy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +113,8 @@
 				9C0606A526EA5A4F001DA124 /* CodeMagicBuildUITests */,
 				9C06068726EA5A4B001DA124 /* Products */,
 				9C0606C026EA5A79001DA124 /* CodeMagicBuild copy-Info.plist */,
+				CAFE8910DC148DFF2C05C37A /* Pods */,
+				F38896CE971F09CAA9EC90BB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -145,6 +167,33 @@
 			path = CodeMagicBuildUITests;
 			sourceTree = "<group>";
 		};
+		CAFE8910DC148DFF2C05C37A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9248CB03F052395F970CE524 /* Pods-CodeMagicBuild.debug.xcconfig */,
+				5EC0BB3C8F6D983B08F993AA /* Pods-CodeMagicBuild.release.xcconfig */,
+				A98284451A009319FCF2DCDB /* Pods-CodeMagicBuild copy.debug.xcconfig */,
+				67C7B375CA8A52222C80D2C0 /* Pods-CodeMagicBuild copy.release.xcconfig */,
+				6C15D8259C1F361E5A9C10BA /* Pods-CodeMagicBuild-CodeMagicBuildUITests.debug.xcconfig */,
+				15E4FFAF83CBE99C4A614DB8 /* Pods-CodeMagicBuild-CodeMagicBuildUITests.release.xcconfig */,
+				9D05F877B5C1873916CCEBB1 /* Pods-CodeMagicBuildTests.debug.xcconfig */,
+				827CF72CAE78209943CA73CA /* Pods-CodeMagicBuildTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F38896CE971F09CAA9EC90BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0287DFC62261AC4F6BA040FA /* Pods_CodeMagicBuild.framework */,
+				77DD12064B3CC30469A4602C /* Pods_CodeMagicBuild_copy.framework */,
+				67395BA17376EF423C5A2BD3 /* Pods_CodeMagicBuild_CodeMagicBuildUITests.framework */,
+				60D42BAF3D37597534EC8B92 /* Pods_CodeMagicBuildTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,9 +201,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9C0606AB26EA5A4F001DA124 /* Build configuration list for PBXNativeTarget "CodeMagicBuild" */;
 			buildPhases = (
+				D3025C51EF36CB42F34E19B6 /* [CP] Check Pods Manifest.lock */,
 				9C06068226EA5A4B001DA124 /* Sources */,
 				9C06068326EA5A4B001DA124 /* Frameworks */,
 				9C06068426EA5A4B001DA124 /* Resources */,
+				28BB13DC3AD114D09F1AEAD6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -169,6 +220,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9C0606AE26EA5A4F001DA124 /* Build configuration list for PBXNativeTarget "CodeMagicBuildTests" */;
 			buildPhases = (
+				ADA9C2BF0DA8429C0095F058 /* [CP] Check Pods Manifest.lock */,
 				9C06069326EA5A4E001DA124 /* Sources */,
 				9C06069426EA5A4E001DA124 /* Frameworks */,
 				9C06069526EA5A4E001DA124 /* Resources */,
@@ -187,9 +239,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9C0606B126EA5A4F001DA124 /* Build configuration list for PBXNativeTarget "CodeMagicBuildUITests" */;
 			buildPhases = (
+				3BE6B5C87BFC7F85E1B3D2A2 /* [CP] Check Pods Manifest.lock */,
 				9C06069E26EA5A4F001DA124 /* Sources */,
 				9C06069F26EA5A4F001DA124 /* Frameworks */,
 				9C0606A026EA5A4F001DA124 /* Resources */,
+				7BC4C00A9DE9DB4B1BDB6019 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -205,9 +259,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9C0606BC26EA5A79001DA124 /* Build configuration list for PBXNativeTarget "CodeMagicBuild copy" */;
 			buildPhases = (
+				904BFF537F0D56C3F95D2853 /* [CP] Check Pods Manifest.lock */,
 				9C0606B526EA5A79001DA124 /* Sources */,
 				9C0606B826EA5A79001DA124 /* Frameworks */,
 				9C0606B926EA5A79001DA124 /* Resources */,
+				7EE56B93DDCE64D634F655EA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -295,6 +351,148 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28BB13DC3AD114D09F1AEAD6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CodeMagicBuild/Pods-CodeMagicBuild-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CodeMagicBuild/Pods-CodeMagicBuild-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CodeMagicBuild/Pods-CodeMagicBuild-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BE6B5C87BFC7F85E1B3D2A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CodeMagicBuild-CodeMagicBuildUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BC4C00A9DE9DB4B1BDB6019 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CodeMagicBuild-CodeMagicBuildUITests/Pods-CodeMagicBuild-CodeMagicBuildUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CodeMagicBuild-CodeMagicBuildUITests/Pods-CodeMagicBuild-CodeMagicBuildUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CodeMagicBuild-CodeMagicBuildUITests/Pods-CodeMagicBuild-CodeMagicBuildUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EE56B93DDCE64D634F655EA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CodeMagicBuild copy/Pods-CodeMagicBuild copy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CodeMagicBuild copy/Pods-CodeMagicBuild copy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CodeMagicBuild copy/Pods-CodeMagicBuild copy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		904BFF537F0D56C3F95D2853 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CodeMagicBuild copy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADA9C2BF0DA8429C0095F058 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CodeMagicBuildTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3025C51EF36CB42F34E19B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CodeMagicBuild-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9C06068226EA5A4B001DA124 /* Sources */ = {
@@ -465,6 +663,7 @@
 		};
 		9C0606AC26EA5A4F001DA124 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9248CB03F052395F970CE524 /* Pods-CodeMagicBuild.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -487,6 +686,7 @@
 		};
 		9C0606AD26EA5A4F001DA124 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EC0BB3C8F6D983B08F993AA /* Pods-CodeMagicBuild.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -509,6 +709,7 @@
 		};
 		9C0606AF26EA5A4F001DA124 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D05F877B5C1873916CCEBB1 /* Pods-CodeMagicBuildTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -531,6 +732,7 @@
 		};
 		9C0606B026EA5A4F001DA124 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 827CF72CAE78209943CA73CA /* Pods-CodeMagicBuildTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -553,6 +755,7 @@
 		};
 		9C0606B226EA5A4F001DA124 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C15D8259C1F361E5A9C10BA /* Pods-CodeMagicBuild-CodeMagicBuildUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -573,6 +776,7 @@
 		};
 		9C0606B326EA5A4F001DA124 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15E4FFAF83CBE99C4A614DB8 /* Pods-CodeMagicBuild-CodeMagicBuildUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -593,6 +797,7 @@
 		};
 		9C0606BD26EA5A79001DA124 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A98284451A009319FCF2DCDB /* Pods-CodeMagicBuild copy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -615,6 +820,7 @@
 		};
 		9C0606BE26EA5A79001DA124 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67C7B375CA8A52222C80D2C0 /* Pods-CodeMagicBuild copy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

@@ -4,7 +4,7 @@
 target 'CodeMagicBuild' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-
+  pod 'Charts', '~> 3.6.0'
   # Pods for CodeMagicBuild
 
   target 'CodeMagicBuildTests' do
@@ -21,7 +21,7 @@ end
 target 'CodeMagicBuild copy' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-
+  pod 'Charts', '~> 3.6.0'
   # Pods for CodeMagicBuild copy
 
 end
